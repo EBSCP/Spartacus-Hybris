@@ -1,0 +1,106 @@
+SAP nedir ve ne için kullanır ve kullanım alanı ?
+
+	SAP yani eski adıyla "Hybris",Güçlü bir e-ticaret ağıdır. Genellikle Büyük işletmelerin dijital ticari ihtiyaçlarını  karşılamak için yapılmıştır. Başlıca bir çok kullanım alanı vardır bunlar:
+
+
+	Çok kanallı ticaret: SAP ticaret genellikle Online mağazalar, mobil uygulamalar ve sosyal medya platformları gibi büyük ticari işlemler de yapılmaktadır.
+
+	Esnek ütün katalogları: İşletmelerin uzun ve kapsamlı içeriklerinin  yönetmeleri için oluştrulmuş gelişmiş kategori sayfalarıdır.
+
+	Kişiselleştirilmiş Müşteri Deneyimi: Müşterilere daha eşsiz  deneyimler sunmak için müşteri verilerini ve tutumlarını  analiz eden ve inceleyen yapıdır.	
+
+	Entegrasyon Kapasitesi: SAP'nin diğer çözümleri (SAP CRM, SAP ERP vb.) ile entegre çalışabilir, böylece işletmelerin bütün iş süreçlerini tek bir platform çatı üzerinden yönetmelerini sağlar.
+
+
+Spartacus nedir ve ne için kullanır ve kullanım alanı ?
+
+ SAP Commerce için bir Angular tabanlı storefront (mağaza arayüzü) çözümüdür. İşte başlıca özellikleri:
+
+	Headless Architecture: Spartacus, SAP Commerce'in headless (bağlantısız) mimarisi üzerine inşa edilmiştir. Bu, Spartacus'un SAP Commerce Cloud'un REST API'leri ile çalıştığı anlamına gelir. Arka uç ve ön uç ayrı sistemler olarak çalışır, bu da esneklik ve ölçeklenebilirlik sağlar. 
+
+	Modern Web Teknolojileri: Spartacus, Angular kullanılarak geliştirilmiştir ve modern web teknolojileri ile uyumludur. Bu sayede hızlı, dinamik ve kullanıcı dostu bir deneyim sunar.
+
+	Özelleştirilebilirlik: Spartacus, işletmelerin kendi marka kimliklerine ve müşteri ihtiyaçlarına göre özelleştirilebilir. Açık kaynak kodlu olması sayesinde geliştiriciler tarafından kolayca uyarlanabilir.
+
+	Performans: Spartacus, önbellekleme ve optimize edilmiş API kullanımı sayesinde harika performans sunar.
+
+	Mobil Uyumlu: Duyarlı tasarımı sayesinde Spartacus, hem masaüstü hem de mobil cihazlarda mükemmel çalışır.
+
+
+
+Spartacus ve SAP örnekleri:
+
+	SAP: https://github.com/SAP-samples/cloud-cap-samples-java/tree/main 
+
+	açıklaması :
+
+	Bu örnek uygulama, CDS etki alanı modellerine dayalı iş uygulamalarının, 
+	H2 veya SAP HANA ile kalıcı verilerin nasıl oluşturulacağını ve üstte SAP Fiori ön ucuyla bir OData V4 ön ucunun nasıl kullanıma sunulacağını gösterir.
+
+	Bu örnek, Spring Boot'u uygulama çerçevesi olarak kullanır. 
+	Spring Boot üzerinde derlemek için bir CAP Java uygulaması gerekmese de sorunsuz bir şekilde entegre olduğu için ilk tercih edilen çerçevedir.
+
+	Etki alanı modelleri, CDS varlık tanımları kullanılarak tanımlanır.
+
+	Veri kalıcılığı için varsayılan olarak bellek içi H2 veritabanı kullanılır. 
+	SAP Business Technology Platform'a verimli bir şekilde dağıtıldıktan sonra SAP HANA kullanılabilir.
+
+	Hizmetler CDS Hizmet Modelleri kullanılarak tanımlanır. OData V4 Protokol Adaptörü,
+ 	CDS hizmet modellerini ilgili OData şemalarına çevirir ve gelen OData isteklerini ilgili CDS hizmetleriyle eşler.
+
+	CAP, çoğu CRUD isteğini kullanıma hazır olarak sunmak için genel olay işleyicileri sağlasa da,
+ 	Özel Olay İşleyicileri aracılığıyla iş mantığı eklemek mümkündür.
+
+	Önceden tanımlanmış SAP Fiori öğeleri şablonları kullanılarak bir SAP Fiori kullanıcı arayüzü eklenir.
+ 	SAP Fiori ek açıklamaları, hizmet tanımlarına verilerin nasıl işleneceğine ilişkin bilgiler ekler.
+
+	CAP, kullanıma hazır kiracı yalıtımıyla yerleşik çoklu kiracılık desteği sağlar. Örnek uygulama,
+ 	geliştirilmiş MTX'e dayalı MTX sepetinin kullanımını gösterir ve çok kiracılı uygulama olarak dağıtılabilir. 
+	Kullanımdan kaldırılan klasik MTX kurulumu, referans amacıyla mtx-classic dalında gösterilmiştir.
+	
+
+Spartacus: https://github.com/SAP/spartacus-tua/tree/master
+
+ 	Açıklama: 
+	Spartacus, SAP Commerce Cloud - Telekomünikasyon ve Yardımcı Programlar Hızlandırıcı Modülü için yalın, 
+	Angular tabanlı bir JavaScript mağazasıdır. TUA Spartacus, SAP Commerce Cloud ile (Telco & Utilities Accelerator modülü gömülü olarak) 
+	yalnızca bir dizi REST API (OCC API'ler) aracılığıyla iletişim kurar. 
+	Aynı zamanda Spartacus işlevselliklerinden ve kütüphaneler sitesinden de yararlanır.
+
+	Dokümantasyon, özel TUA Spartacus Dokümantasyon sitemizde barındırılmaktadır.
+	Teknik sorular? Slack çalışma alanı üzerinden bizimle iletişime geçin.
+	Teknik olmayan sorular mı? Slack çalışma alanımıza katılın.
+	1.0 lansmanına ilişkin ayrıntılar için Spartacus TUA dokümantasyon sitemizdeki Sürüm Bilgileri sayfasına bakın.
+	TUA Spartacus...
+
+	Uzatılabilir: TUA Spartacus, tam genişletilebilirliği korurken yükseltilebilecek şekilde tasarlanmıştır.
+ 	Düzenli olarak geliştireceğimiz Spartacus kütüphanelerini güncelleyerek Spartacus'un yeni sürümlerini benimseyebileceksiniz. 
+	(İlk sürümün istediğimiz kadar genişletilebilir ve yükseltilebilir olmasını sağlamak için, 
+	büyük olasılıkla 1.0 lansmanına kadar önemli değişiklikler yapılacak.)
+
+	Yükseltilebilir: Spartacus kodu kitaplık olarak yayınlanır ve kullanılır ve anlamsal sürüm oluşturma kurallarına uyar. 
+	Kitaplıkları kullanarak Spartacus, küçük sürümler ve yama sürümleri için yükseltilebilir.
+
+	Aşamalı: Spartacus, Aşamalı Web Uygulaması (PWA) kontrol listesiyle tam uyumlu olma yolculuğundadır. 
+	Cihaz veya konumdan bağımsız olarak mümkün olan en iyi müşteri deneyimini sunmak için PWA özellikli bir vitrinin tüm önemli özelliklerine destek eklemeyi hedefliyoruz.
+
+	Açık Kaynak: Spartacus açık kaynaktır. 
+	SAP Commerce Cloud ekibi tarafından sürekli olarak geliştirilecek ancak katkıda bulunanları memnuniyetle karşılamayı ve Spartacus için kapsayıcı,
+ 	aktif bir geliştirme topluluğu oluşturmayı çok istiyoruz. Daha fazla bilgi için katkıda bulunan belgelerimize bakın.
+
+	Modern: Spartacus TUA mağazası, SAP Commerce Cloud - Telco & Utilities Accelerator kurulumları için özelleştirilebilir
+ 	ancak yükseltilebilir bir teknolojiye yönelik heyecan verici yeni yolculuğumuzun bir parçası.
+ 	SAP Commerce Cloud - Telco & Utilities Accelerator hakkında daha fazla bilgi için SAP Müşteri Deneyimi'ne bakın.
+	Vitrin Özellikleri 
+
+	TUA Spartacus aşağıdakiler gibi temel mağaza vitrin özelliklerini sağlar:
+
+	Vitrin Gezintisi
+	Aramak	
+	Kategoriler
+	Ürün Teklifleri	
+	Yapılandırılabilir Güdümlü Satış
+	Araba
+	Çıkış yapmak
+	Emir
+
