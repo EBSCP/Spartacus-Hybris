@@ -104,3 +104,15 @@ Spartacus: https://github.com/SAP/spartacus-tua/tree/master
 	Çıkış yapmak
 	Emir
 
+
+
+
+
+SAP Commerce eski adı ile hybris, büyük işletme ve şirketlerin çevrimiçi ticaret gereksinimlerini karşılama üzerene geliştirilmiş sağlam bir e-ticaret ağ platformudur. Şirketlerin dijital  mağazalarını, mobil aplikasyonlarını ve sosyal medya satış kanallarını tek bir sistem üzerine yönetim sistemi sağlar. Bir kaç temel özelliği vardır bunlar:
+
+Çoklu kanal ticareti: Web siteleri, mobil aplikasyonlarl ve sosyal medya vasıtası ile satış oranı desteklemektedir.
+Esnek ürün katalogları:  Detaylı ve kapsamlı ürün ve içeriği koleksiyonlarını yönlendirme ve yönetimine yardımcı olur.
+Kişiler için özel deneyimler: Hedeflenen  ürünün içeriğini sunmak için müşteri verilerini kullanır.
+Entegrasyon yeteneği: SAP ERP ve SAP CRM gibi başka SAP çözüm yöntemleri ile sorun olmadan  bağlantı kurar.
+
+Spartacus, SAP Commerce Cloud için Angular sistemli bir vitrin çerçevesidir. Başsız bir mimari üzerine kurulu olan Spartacus, arka uçla REST API'leri aracılığıyla iletişim kurarak esneklik ve ölçeklenebilirlik sunar. Modern web teknolojilerini, duyarlı tasarımı ve açık kaynaklı özelleştirmeyi destekler.
